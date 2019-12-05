@@ -14,9 +14,9 @@
     "search-result-layout.customQuery": {
         "props": {
             "orderByField": "OrderByReleaseDateDESC",
-            "hideUnavailableItems": "true",
-            "maxItemsPerPage": "8",
-            "queryField":"Blue Top Retro Camera",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "queryField":"Blue Top Retro Camera ",
             "mapField": "ft"
         }
     }
