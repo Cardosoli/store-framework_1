@@ -44,8 +44,7 @@
       
         "props": {
           "sticky": true,
-          "inverted":true,
-          "fullWidth": false
+          "inverted":true
         }
       },
       "header-row#main-desktop": {
@@ -62,14 +61,6 @@
           "fullWidth": false
         }
       },
-      "header-row#search": {
-        "children": [
-          "search-bar"
-        ],
-        "props": {
-          "sticky": true
-        }
-      },
       "header-row#main-mobile": {
         "children": [
           "logo",
@@ -77,11 +68,18 @@
           "minicart",
           "login"
         ],
-      
         "props": {
           "sticky": true,
           "inverted":true,
           "fullWidth": false
+        }
+      },
+      "header-row#search": {
+        "children": [
+          "search-bar"
+        ],
+        "props": {
+          "sticky": true
         }
       },
       "login":{
