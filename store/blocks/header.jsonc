@@ -44,19 +44,6 @@
       
         "props": {
           "sticky": true,
-          "inverted":true
-        }
-      },
-      "header-row#main-desktop": {
-        "children": [
-          "logo",
-          "header-spacer",
-          "minicart",
-          "login"
-        ],
-      
-        "props": {
-          "sticky": true,
           "inverted":true,
           "fullWidth": false
         }
@@ -68,6 +55,21 @@
           "minicart",
           "login"
         ],
+      
+        "props": {
+          "sticky": true,
+          "inverted":true
+        }
+      },
+      
+      "header-row#main-desktop": {
+        "children": [
+          "logo",
+          "header-spacer",
+          "minicart",
+          "login"
+        ],
+      
         "props": {
           "sticky": true,
           "inverted":true,
